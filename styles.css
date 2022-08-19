@@ -1,0 +1,49 @@
+h1 {
+    color: #000;
+    position: absolute;
+    left: 50%;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 45em;
+    width: 85em;
+    display: flex;
+    margin: 1em;
+    background-color: red;
+}
+
+.sidebar {
+    height: 100%;
+    width: 25%;
+    background-color: greenyellow;
+}
+
+.mainpage {
+    height: 100%;
+    width: 75%;
+}
+
+.topic {
+    height: 5%;
+    width: 90%;
+    margin: 5%;
+    background-color: red;
+    border-radius: 0.4em;
+    transform: translate(0%, 300%);
+}
+
+.todo-1 {
+    background-color: green;
+    height: 1.5em;
+    width: 96.5%;
+    border-radius: 0.4em;
+    transform: translate(1em, 4em);
+}
+
+.count {
+    transform: translate(30em, 5em);
+}
