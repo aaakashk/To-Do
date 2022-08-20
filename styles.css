@@ -25,8 +25,10 @@ body {
 .mainpage {
     height: 40em;
     width: 75%;
-    background-color: green;
+    background-color: white;
     transform: translateY(5em);
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 .topic {
@@ -50,6 +52,40 @@ body {
     transform: translate(30em, 5em);
 }
 
-.create-todos {
-    transform: translate(1em, 38em);
+/* .new-to-do {
+    height: 1.5em;
+    width: 90%;
+    background-color: #48cae4;
+} */
+
+footer {
+    margin: 0.5em;
+    transform: translate(x);
+}
+
+button {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border: none;
+    background-color: #48cae4;
+    font-size: x-large ;
+}
+
+footer {
+    background-color: red;
+    position: fixed;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+input {
+    transform: translate(20%, 50%);
+}
+
+label {
+    font-size: 30px;
+    transform: translate(10px, 0px);
 }
