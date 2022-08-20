@@ -23,8 +23,10 @@ body {
 }
 
 .mainpage {
-    height: 100%;
+    height: 40em;
     width: 75%;
+    background-color: green;
+    transform: translateY(5em);
 }
 
 .topic {
@@ -46,4 +48,8 @@ body {
 
 .count {
     transform: translate(30em, 5em);
+}
+
+.create-todos {
+    transform: translate(1em, 38em);
 }
